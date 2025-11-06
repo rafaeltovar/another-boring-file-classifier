@@ -1,0 +1,25 @@
+{
+  "name": "another-boring-file-classifier",
+  "version": "1.0.0",
+  "description": "📱 Node.js CLI tool to organize smartphone backup files by date and type. Perfect for Synology NAS environments. Created with Claude Sonnet 4 AI.",
+  "main": "src/index.js",
+  "bin": {
+    "another-boring-file-classifier": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["file-classifier", "smartphone-backup", "synology", "image", "video", "organize", "metadata", "file-management", "cli-tool"],
+  "author": "Rafael Tovar",
+  "license": "MIT",
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "node-ffprobe": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
